@@ -1,19 +1,14 @@
 package io.bgnc.SpringBootHotelBookingApplication.controller;
 
-import io.bgnc.SpringBootHotelBookingApplication.service.HotelService;
+import io.bgnc.SpringBootHotelBookingApplication.service.RoomService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/hotel")
+@RequestMapping("/room")
 @AllArgsConstructor
-public class HotelController {
+public class RoomController {
 
-    private final HotelService hotelService;
-
-
-
-
-
+    private final RoomService roomService;
 }
